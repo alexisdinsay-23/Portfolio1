@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alexis Dinsay — BSIT programmer at Central Philippines University. Building clean, modern web experiences with HTML, CSS, JavaScript & Tailwind CSS.">
+<title>Alexis Dinsay | BSIT Programmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#hero" class="nav-logo">Alexis<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" onclick="openMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="closeMenu()">✕</button>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">BSIT Programmer · CPU Iloilo</div>
+    <h1 class="hero-name">
+      <span class="line1">Alexis</span>
+      <span class="line2">Dinsay.</span>
+    </h1>
+    <p class="hero-hook">
+      I'm a <strong>BSIT student at Central Philippines University</strong> who builds
+      clean, modern web experiences. I craft interfaces with
+      <strong>HTML, CSS, JavaScript & Tailwind CSS</strong> — turning ideas into
+      functional, well-designed websites.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-gold">View my work →</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Projects built</div>
+      </div>
+      <div>
+        <div class="stat-num">4</div>
+        <div class="stat-label">Core skills</div>
+      </div>
+      <div>
+        <div class="stat-num">CPU</div>
+        <div class="stat-label">University</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-wrap">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-eyebrow">About me</div>
+        <h2 class="section-title">Building the web,<br>one line at a time.</h2>
+        <br>
+        <p>
+          I'm <strong>Alexis Dinsay</strong>, a passionate BSIT programmer studying at
+          <strong>Central Philippines University</strong> in Iloilo City. I love creating
+          websites and web applications that are not just functional — but genuinely
+          beautiful to use.
+        </p>
+        <p>
+          My focus is on <strong>frontend web development</strong>: crafting responsive
+          layouts, writing clean HTML & CSS, building interactive experiences with
+          JavaScript, and using Tailwind CSS to design efficiently. I believe great code
+          and great design go hand in hand.
+        </p>
+        <p>
+          Currently leveling up my skills through coursework, personal projects, and
+          hands-on practice. Always ready to learn, build, and grow.
+        </p>
+      </div>
+      <div class="reveal">
+        <div class="about-card">
+          <div class="about-card-header">
+            <div class="avatar">AD</div>
+            <div>
+              <div class="about-name">Alexis Dinsay</div>
+              <div class="about-meta">BSIT Student · Web Developer</div>
+            </div>
+          </div>
+          <div class="detail-row"><span class="dk">Course</span><span class="dv">BS Information Technology</span></div>
+          <div class="detail-row"><span class="dk">School</span><span class="dv">Central Philippines University</span></div>
+          <div class="detail-row"><span class="dk">Location</span><span class="dv">Iloilo City, Philippines</span></div>
+          <div class="detail-row"><span class="dk">Focus</span><span class="dv">Frontend Web Development</span></div>
+          <div class="detail-row"><span class="dk">LinkedIn</span><span class="dv"><a href="https://linkedin.com/in/alexisdinsay" target="_blank" style="color:var(--gold);text-decoration:none">linkedin.com/in/alexisdinsay</a></span></div>
+          <div class="detail-row"><span class="dk">Status</span><span class="dv" style="color:var(--gold)">● Open to opportunities</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-wrap">
+    <div class="section-eyebrow reveal">Proof of work</div>
+    <h2 class="section-title reveal">My Projects</h2>
+    <p class="section-sub reveal">Things I've built — real problems solved with real code.</p>
+
+    <div class="projects-grid">
+
+      <!-- Card 1 -->
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <div class="proj-icon">🌐</div>
+          <div class="proj-num">01</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-badge">HTML</div>
+          <h3 class="proj-title">Project 1</h3>
+          <div class="proj-tags"></div>
+          <div class="proj-footer">
+            <a href="#" class="proj-link">Live Demo →</a>
+            <a href="https://github.com/alexisdinsay-23" target="_blank" class="proj-link-ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <div class="proj-icon">⚡</div>
+          <div class="proj-num">02</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-badge">JavaScript</div>
+          <h3 class="proj-title">Project 2</h3>
+          <div class="proj-tags"></div>
+          <div class="proj-footer">
+            <a href="#" class="proj-link">GitHub →</a>
+            <a href="#" class="proj-link-ghost">View ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <div class="proj-icon">🚀</div>
+          <div class="proj-num">03</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-badge">CSS</div>
+          <h3 class="proj-title">Project 3</h3>
+          <div class="proj-tags"></div>
+          <div class="proj-footer">
+            <a href="#" class="proj-link">View →</a>
+            <a href="https://github.com/alexisdinsay-23" target="_blank" class="proj-link-ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS & EXPERIENCE -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-eyebrow reveal">My toolkit</div>
+    <h2 class="section-title reveal">Skills & Experience</h2>
+    <p class="section-sub reveal">What I know and where I've grown.</p>
+    <div class="skills-grid">
+      <div>
+        <div class="skill-block reveal">
+          <div class="skill-block-title">Languages & Frameworks</div>
+          <div class="skill-row">
+            <span class="skill-name">HTML & CSS</span>
+            <div class="bar-track"><div class="bar-fill" data-w="0.88"></div></div>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">JavaScript</span>
+            <div class="bar-track"><div class="bar-fill" data-w="0.80"></div></div>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Tailwind CSS</span>
+            <div class="bar-track"><div class="bar-fill" data-w="0.82"></div></div>
+            <span class="skill-pct">82%</span>
+          </div>
+        </div>
+        <div class="skill-block reveal" style="margin-top:2.5rem">
+          <div class="skill-block-title">Tools & Version Control</div>
+          <div class="skill-row">
+            <span class="skill-name">Git / GitHub</span>
+            <div class="bar-track"><div class="bar-fill" data-w="0.82"></div></div>
+            <span class="skill-pct">82%</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="skill-block-title" style="margin-bottom:1.5rem">Education & Experience</div>
+        <div class="exp-list">
+          <div class="exp-entry">
+            <div class="exp-dot"></div>
+            <div class="exp-date">2022 — Present</div>
+            <div class="exp-role">BS Information Technology</div>
+            <div class="exp-org">Central Philippines University · Iloilo City</div>
+            <div class="exp-desc">Studying core IT subjects including web development, programming fundamentals, systems analysis, and database management. Actively building projects to apply classroom knowledge to real-world problems.</div>
+          </div>
+          <div class="exp-entry">
+            <div class="exp-dot"></div>
+            <div class="exp-date">2023</div>
+            <div class="exp-role">Frontend Web Projects</div>
+            <div class="exp-org">Personal / Academic Work · Self-initiated</div>
+            <div class="exp-desc">Built and deployed multiple frontend projects including landing pages, UI component libraries, and a JavaScript task tracker app. Practiced responsive design and version control using Git & GitHub.</div>
+          </div>
+          <div class="exp-entry">
+            <div class="exp-dot"></div>
+            <div class="exp-date">Ongoing</div>
+            <div class="exp-role">Self-directed Learning</div>
+            <div class="exp-org">Online Courses & Documentation</div>
+            <div class="exp-desc">Continuously learning through freeCodeCamp, The Odin Project, and official Tailwind CSS docs. Committed to growing as a developer every day.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="section-eyebrow reveal">Let's connect</div>
+    <h2 class="section-title reveal">Get In Touch</h2>
+    <p class="section-sub reveal">Open to internships, collaborations, and new opportunities.</p>
+    <div class="contact-wrap">
+      <div class="reveal">
+        <div class="contact-left">
+          <h3>Let's work together</h3>
+          <p>I'm a BSIT student at CPU actively looking for internship opportunities, freelance projects, and collaborations. Whether you have a project in mind or just want to connect — I'd love to hear from you.</p>
+        </div>
+        <div class="clinks">
+          <a href="https://linkedin.com/in/alexisdinsay" target="_blank" class="clink">
+            <span class="clink-icon">in</span>
+            <span>linkedin.com/in/alexisdinsay</span>
+          </a>
+          <a href="https://github.com/alexisdinsay-23" target="_blank" class="clink">
+            <span class="clink-icon">gh</span>
+            <span>github.com/alexisdinsay-23</span>
+          </a>
+          <a href="mailto:alexis.dinsay-23@cpu.edu.ph" class="clink">
+            <span class="clink-icon">@</span>
+            <span>alexis.dinsay-23@cpu.edu.ph</span>
+          </a>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="fg">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="first_name" required>
+            </div>
+            <div class="fg">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="last_name" required>
+            </div>
+          </div>
+          <div class="fg">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="fg">
+            <label for="subject">Topic</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic</option>
+              <option value="internship">Internship Opportunity</option>
+              <option value="freelance">Freelance Project</option>
+              <option value="collab">Collaboration</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="fstatus" id="fstatus"></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+            <button type="submit" class="btn btn-gold" id="submitBtn">
+              <span id="btnText">Send Message</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-left">© 2025 Alexis Dinsay · BSIT · Central Philippines University</span>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/alexisdinsay" target="_blank">LinkedIn</a>
+    <a href="https://github.com/alexisdinsay-23" target="_blank">GitHub</a>
+    <a href="#hero">Top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
